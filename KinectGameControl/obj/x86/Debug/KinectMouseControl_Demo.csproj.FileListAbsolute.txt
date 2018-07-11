@@ -1,0 +1,147 @@
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\Calvin\Desktop\Kinect Demo\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo v1.0\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.2\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectMouseControl_Demo v1.3\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+C:\Users\ASUS\Desktop\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+E:\VS2015\KinectMouseControl_Demo v1.4\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\KinectMouseControl_Demo.pdb
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.dll
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Microsoft.Kinect.xml
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csprojAssemblyReference.cache
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.baml
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\MainWindow.g.cs
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\App.g.cs
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo_MarkupCompile.cache
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.g.resources
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.Properties.Resources.resources
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.GenerateResource.cache
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CoreCompileInputs.cache
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.csproj.CopyComplete
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.exe
+D:\Workspace\kinect\KinectGameControl\KinectMouseControl_Demo\obj\x86\Debug\KinectMouseControl_Demo.pdb
