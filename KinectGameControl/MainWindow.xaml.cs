@@ -22,7 +22,15 @@ namespace KinectMouseControl_Demo
         bool Wlast = false;
         bool Alast = false;
         bool Slast = false;
+        bool Blast = false;
         bool Dlast = false;
+        bool Ulast = false;
+        bool Ilast = false;
+        bool Olast = false;
+        bool Llast = false;
+        float SpineX = 0;
+        float SpineY = 0;
+        int flag;
 
         public MainWindow()
         {
@@ -48,6 +56,37 @@ namespace KinectMouseControl_Demo
             skeletonBrushes = new Brush[] { Brushes.Black, Brushes.Crimson, Brushes.Indigo, Brushes.DodgerBlue, Brushes.Purple, Brushes.Pink };
             KinectSensor.KinectSensors.StatusChanged += KinectSensors_StatusChanged;
             this.sensor = KinectSensor.KinectSensors.FirstOrDefault(x => x.Status == KinectStatus.Connected);
+        }
+
+        void RadioButton1_Checked(object sender,EventArgs e)
+        {
+            //Console.WriteLine(Radio1.Content);
+            flag = 1;
+            Jlast = false;
+            Klast = false;
+            Wlast = false;
+            Alast = false;
+            Slast = false;
+            Blast = false;
+            Dlast = false;
+        }
+        void RadioButton2_Checked(object sender, EventArgs e)
+        {
+            // Console.WriteLine(Radio2.Content);
+            flag = 2;
+            bool Jlast = false;
+            bool Klast = false;
+            bool Wlast = false;
+            bool Alast = false;
+            bool Slast = false;
+            bool Blast = false;
+            bool Dlast = false;
+            bool Ulast = false;
+            bool Ilast = false;
+            bool Olast = false;
+            bool Llast = false;
+            float SpineX = 0;
+            float SpineY = 0;
         }
 
         //窗口开启，安装设备
@@ -81,7 +120,7 @@ namespace KinectMouseControl_Demo
                 }
                 else
                 {
-                    Console.WriteLine("Skeleton Frame Exist");
+                    //Console.WriteLine("Skeleton Frame Exist");
                     frameSkeletons = new Skeleton[SFrame.SkeletonArrayLength];
                     SFrame.CopySkeletonDataTo(frameSkeletons);
                     receivedData = true;
@@ -161,7 +200,7 @@ namespace KinectMouseControl_Demo
 
                 if (currentSkeleton != null)
                 {
-                    Console.WriteLine("检测到骨架");
+                    //Console.WriteLine("检测到骨架");
                     //获取关节点
                     Joint jointRight = currentSkeleton.Joints[JointType.HandRight];
                     Joint jointLeft = currentSkeleton.Joints[JointType.HandLeft];
@@ -169,88 +208,210 @@ namespace KinectMouseControl_Demo
                     Joint jointElbowLeft = currentSkeleton.Joints[JointType.ElbowLeft];
                     Joint jointShoulderRight = currentSkeleton.Joints[JointType.ShoulderRight];
                     Joint jointShoulderLeft = currentSkeleton.Joints[JointType.ShoulderLeft];
+                    Joint jointHead = currentSkeleton.Joints[JointType.Head];
+                    Joint jointSpine = currentSkeleton.Joints[JointType.Spine];
+                    Joint jointFootRight = currentSkeleton.Joints[JointType.FootRight];
+                    Joint jointFootLeft = currentSkeleton.Joints[JointType.FootLeft];
 
                     //控制键盘---多次点击
-                    if (jointRight.Position.Y > 0.7)
-                    {
-                        System.Windows.Forms.SendKeys.SendWait("b");
-                    }
+                    //if (jointRight.Position.Y > 0.7)
+                    //{
+                    //    System.Windows.Forms.SendKeys.SendWait("b");
+                    //}
 
                     //控制键盘---持续点击
-                    bool Know = jointLeft.Position.Z - jointShoulderLeft.Position.Z < -0.45;
-                    if (Know && !Klast)
+                    if (flag == 1)
                     {
-                        keybd_event(75, 0, 0, 0);
-                    }
-                    if (!Know && Klast)
-                    {
-                        keybd_event(75, 0, 2, 0);
-                    }
-                    Klast = Know;
+                        bool Know = jointLeft.Position.Z - jointShoulderLeft.Position.Z < -0.45;
+                        if (Know && !Klast)
+                        {
+                            keybd_event(75, 0, 0, 0);
+                        }
+                        if (!Know && Klast)
+                        {
+                            keybd_event(75, 0, 2, 0);
+                        }
+                        Klast = Know;
+
+                        bool Bnow = jointRight.Position.Y > 0.7;
+                        if (Bnow && !Blast)
+                        {
+                            keybd_event(66, 0, 0, 0);
+                        }
+                        if (!Bnow && Blast)
+                        {
+                            keybd_event(66, 0, 2, 0);
+                        }
+                        Blast = Bnow;
+
+                        bool Jnow = jointRight.Position.Z - jointShoulderRight.Position.Z < -0.45;
+                        if (Jnow && !Jlast)
+                        {
+                            keybd_event(74, 0, 0, 0);
+                        }
+                        if (!Jnow && Jlast)
+                        {
+                            keybd_event(74, 0, 2, 0);
+                        }
+                        Jlast = Jnow;
 
 
-                    bool Jnow = jointRight.Position.Z - jointShoulderRight.Position.Z < -0.45;
-                    if (Jnow && !Jlast)
-                    {
-                        keybd_event(74, 0, 0, 0);
-                    }
-                    if (!Jnow && Jlast)
-                    {
-                        keybd_event(74, 0, 2, 0);
-                    }
-                    Jlast = Jnow;
+                        bool Wnow = jointLeft.Position.Y > 0.5;
+                        if (Wnow && !Wlast)
+                        {
+                            keybd_event(87, 0, 0, 0);
+                        }
+                        if (!Wnow && Wlast)
+                        {
+                            keybd_event(87, 0, 2, 0);
+                        }
+                        Wlast = Wnow;
 
 
-                    bool Wnow = jointLeft.Position.Y > 0.5;
-                    if (Wnow && !Wlast)
-                    {
-                        keybd_event(87, 0, 0, 0);
-                    }
-                    if (!Wnow && Wlast)
-                    {
-                        keybd_event(87, 0, 2, 0);
-                    }
-                    Wlast = Wnow;
+                        bool Snow = jointLeft.Position.Y < 0;
+                        if (Snow && !Slast)
+                        {
+                            keybd_event(83, 0, 0, 0);
+                        }
+                        if (!Snow && Slast)
+                        {
+                            keybd_event(83, 0, 2, 0);
+                        }
+                        Slast = Snow;
 
 
-                    bool Snow = jointLeft.Position.Y < 0;
-                    if (Snow && !Slast)
-                    {
-                        keybd_event(83, 0, 0, 0);
-                    }
-                    if (!Snow && Slast)
-                    {
-                        keybd_event(83, 0, 2, 0);
-                    }
-                    Slast = Snow;
+                        bool Dnow = jointLeft.Position.X > -0.1;
+                        if (Dnow && !Dlast)
+                        {
+                            keybd_event(68, 0, 0, 0);
+                        }
+                        if (!Dnow && Dlast)
+                        {
+                            keybd_event(68, 0, 2, 0);
+                        }
+                        Dlast = Dnow;
 
 
-                    bool Dnow =  jointLeft.Position.X > -0.1;
-                    if (Dnow && !Dlast)
-                    {
-                        keybd_event(68, 0, 0, 0);
+                        bool Anow = jointLeft.Position.X < -0.5;
+                        if (Anow && !Alast)
+                        {
+                            keybd_event(65, 0, 0, 0);
+                        }
+                        if (!Anow && Alast)
+                        {
+                            keybd_event(65, 0, 2, 0);
+                        }
+                        Alast = Anow;
                     }
-                    if (!Dnow && Dlast)
+                    else if (flag == 2)
                     {
-                        keybd_event(68, 0, 2, 0);
-                    }
-                    Dlast = Dnow;
+                        bool Onow = (jointLeft.Position.Y > 0.7) && (jointRight.Position.Y > 0.7);
+                        if (Onow && !Olast)
+                        {
+                            keybd_event(79, 0, 0, 0);
+                        }
+                        if (!Onow && Olast)
+                        {
+                            keybd_event(79, 0, 2, 0);
+                        }
+                        Olast = Onow;
+
+                        bool Unow = jointLeft.Position.X - jointSpine.Position.X < -0.5;
+                        if (Unow && !Ulast)
+                        {
+                            keybd_event(85, 0, 0, 0);
+                        }
+                        if (!Unow && Ulast)
+                        {
+                            keybd_event(85, 0, 2, 0);
+                        }
+                        Ulast = Unow;
+
+                        bool Inow = jointFootLeft.Position.Z - jointSpine.Position.Z < -0.6;
+                        if (Inow && !Ilast)
+                        {
+                            keybd_event(73, 0, 0, 0);
+                        }
+                        if (!Inow && Ilast)
+                        {
+                            keybd_event(73, 0, 2, 0);
+                        }
+                        Ilast = Inow;
+
+                        bool Know = jointFootRight.Position.Z - jointSpine.Position.Z < -0.6;
+                        if (Know && !Klast)
+                        {
+                            keybd_event(75, 0, 0, 0);
+                        }
+                        if (!Know && Klast)
+                        {
+                            keybd_event(75, 0, 2, 0);
+                        }
+                        Klast = Know;
+
+                        bool Jnow = jointRight.Position.X - jointSpine.Position.X > 0.5;
+                        if (Jnow && !Jlast)
+                        {
+                            keybd_event(74, 0, 0, 0);
+                        }
+                        if (!Jnow && Jlast)
+                        {
+                            keybd_event(74, 0, 2, 0);
+                        }
+                        Jlast = Jnow;
 
 
-                    bool Anow =  jointLeft.Position.X < -0.5;
-                    if (Anow && !Alast)
-                    {
-                        keybd_event(65, 0, 0, 0);
+                        bool Wnow = ((jointSpine.Position.Y - SpineY) * 100 > 1) && (jointSpine.Position.Y > 0);
+                        if (Wnow && !Wlast)
+                        {
+                            keybd_event(87, 0, 0, 0);
+                        }
+                        if (!Wnow && Wlast)
+                        {
+                            keybd_event(87, 0, 2, 0);
+                        }
+                        Wlast = Wnow;
+
+                        bool Snow = ((jointSpine.Position.Y - SpineY) * 100 < -1);
+                        if (Snow && !Slast)
+                        {
+                            keybd_event(83, 0, 0, 0);
+                        }
+                        if (!Snow && Slast)
+                        {
+                            keybd_event(83, 0, 2, 0);
+                        }
+                        Slast = Snow;
+                        SpineY = jointSpine.Position.Y;
+
+                        bool Dnow = (jointSpine.Position.X - SpineX) * 100 > 1;
+                        if (Dnow && !Dlast)
+                        {
+                            keybd_event(68, 0, 0, 0);
+                        }
+                        if (!Dnow && Dlast)
+                        {
+                            keybd_event(68, 0, 2, 0);
+                        }
+                        Dlast = Dnow;
+
+
+                        bool Anow = (jointSpine.Position.X - SpineX) * 100 < -1;
+                        if (Anow && !Alast)
+                        {
+                            keybd_event(65, 0, 0, 0);
+                        }
+                        if (!Anow && Alast)
+                        {
+                            keybd_event(65, 0, 2, 0);
+                        }
+                        Alast = Anow;
+                        SpineX = jointSpine.Position.X;
                     }
-                    if (!Anow && Alast)
-                    {
-                        keybd_event(65, 0, 2, 0);
-                    }
-                    Alast = Anow;
                 }
                 else
                 {
-                    Console.WriteLine("未检测到骨架");
+                    //Console.WriteLine("未检测到骨架");
                 }
             }
         }

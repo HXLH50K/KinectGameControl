@@ -7,5 +7,9 @@
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <!--<Grid x:Name="LayoutRoot" Background="Black">-->
         </Grid>
+        <StackPanel Name="check" Grid.Column="1" Grid.Row="0" Margin="0,10,15,210" Grid.ColumnSpan="2">
+            <RadioButton Name="Radio1" Margin="3"  Content="xiaobawang" GroupName="game" Checked="RadioButton1_Checked" IsChecked="False"></RadioButton>
+            <RadioButton Name="Radio2" Margin="3"  Content="quanhuang" GroupName="game" Checked="RadioButton2_Checked" IsChecked="False"></RadioButton>
+        </StackPanel>
     </Grid>
 </Window>
