@@ -8,7 +8,7 @@ using Microsoft.Kinect;
 using System.Linq;
 using System.Runtime.InteropServices;
 
-namespace KinectMouseControl_Demo
+namespace KinectGameControl
 {
     public partial class MainWindow : Window
     {
@@ -140,28 +140,33 @@ namespace KinectMouseControl_Demo
                             userBrush = this.skeletonBrushes[i % this.skeletonBrushes.Length];
 
                             //绘制头和躯干
-                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.Head, JointType.ShoulderCenter, JointType.ShoulderLeft, JointType.Spine,
-                                                                JointType.ShoulderRight, JointType.ShoulderCenter, JointType.HipCenter
-                                                                });
+                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.Head, JointType.ShoulderCenter,
+                                                                                JointType.ShoulderLeft, JointType.Spine,
+                                                                                JointType.ShoulderRight, JointType.ShoulderCenter,
+                                                                                JointType.HipCenter});
                             LayoutRoot.Children.Add(figure);
 
                             figure = CreateFigure(skeleton, userBrush, new[] { JointType.HipLeft, JointType.HipRight });
                             LayoutRoot.Children.Add(figure);
 
                             //绘制作腿
-                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.HipCenter, JointType.HipLeft, JointType.KneeLeft, JointType.AnkleLeft, JointType.FootLeft });
+                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.HipCenter, JointType.HipLeft,
+                                                        JointType.KneeLeft, JointType.AnkleLeft, JointType.FootLeft });
                             LayoutRoot.Children.Add(figure);
 
                             //绘制右腿
-                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.HipCenter, JointType.HipRight, JointType.KneeRight, JointType.AnkleRight, JointType.FootRight });
+                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.HipCenter, JointType.HipRight,
+                                                        JointType.KneeRight, JointType.AnkleRight, JointType.FootRight });
                             LayoutRoot.Children.Add(figure);
 
                             //绘制左臂
-                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.ShoulderLeft, JointType.ElbowLeft, JointType.WristLeft, JointType.HandLeft });
+                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.ShoulderLeft, JointType.ElbowLeft,
+                                                                                JointType.WristLeft, JointType.HandLeft });
                             LayoutRoot.Children.Add(figure);
 
                             //绘制右臂
-                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.ShoulderRight, JointType.ElbowRight, JointType.WristRight, JointType.HandRight });
+                            figure = CreateFigure(skeleton, userBrush, new[] { JointType.ShoulderRight, JointType.ElbowRight,
+                                                                                JointType.WristRight, JointType.HandRight });
                             LayoutRoot.Children.Add(figure);
                         }
                     }
@@ -280,7 +285,7 @@ namespace KinectMouseControl_Demo
                         Slast = Snow;
 
 
-                        bool Dnow = jointLeft.Position.X > -0.1;
+                        bool Dnow = jointLeft.Position.X - jointSpine.Position.X > -0.2;
                         if (Dnow && !Dlast)
                         {
                             keybd_event(68, 0, 0, 0);
@@ -292,7 +297,7 @@ namespace KinectMouseControl_Demo
                         Dlast = Dnow;
 
 
-                        bool Anow = jointLeft.Position.X < -0.5;
+                        bool Anow = jointLeft.Position.X - jointSpine.Position.X < -0.5;
                         if (Anow && !Alast)
                         {
                             keybd_event(65, 0, 0, 0);
@@ -431,7 +436,8 @@ namespace KinectMouseControl_Demo
                 {
                     byte[] pixelData = new byte[frame.PixelDataLength];
                     frame.CopyPixelDataTo(pixelData);
-                    ColorImageElement.Source = BitmapImage.Create(frame.Width, frame.Height, 96, 96,PixelFormats.Bgr32, null, pixelData,frame.Width * frame.BytesPerPixel);
+                    ColorImageElement.Source = BitmapImage.Create(frame.Width, frame.Height, 96, 96,PixelFormats.Bgr32, 
+                                                                    null, pixelData,frame.Width * frame.BytesPerPixel);
                 }
             }
         }
